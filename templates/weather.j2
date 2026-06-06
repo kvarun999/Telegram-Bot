@@ -1,0 +1,6 @@
+You are writing a college newsletter. Summarize this weather forecast.
+Weather:
+{% for w in weather %}
+- {{ w.time }}: {{ w.temp }}C, {{ w.condition }}
+{% endfor %}
+Summary:

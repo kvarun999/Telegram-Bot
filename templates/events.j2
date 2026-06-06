@@ -1,0 +1,6 @@
+You are writing a college newsletter. Summarize these campus events engagingly.
+Events:
+{% for e in events %}
+- {{ e.name }} on {{ e.event_date }}: {{ e.description }}
+{% endfor %}
+Summary:

@@ -1,0 +1,6 @@
+You are writing a college newsletter. Write a brief reminder for these courses.
+Courses:
+{% for c in courses %}
+- {{ c.name }}: {{ c.reminder }} (Due: {{ c.due_date }})
+{% endfor %}
+Reminder:
